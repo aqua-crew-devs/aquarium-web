@@ -1,0 +1,27 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 45px;
+
+  border-bottom: 1px solid #cccccc;
+  box-shadow: 0px 2px 4px #cccccc;
+
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+}
+
+$size-of-logo: 50px;
+
+.logo {
+  width: $size-of-logo;
+  height: $size-of-logo;
+  background-image: url("./logo.png");
+  background-size: contain;
+}
+
+.siteTitle {
+  font-size: 20px;
+}
